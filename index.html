@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#7567e8">
+  <title>DevTrack | SDE Roadmap Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <a href="#" class="brand" aria-label="DevTrack home">
+      <span class="brand-icon">D</span>
+      <span>
+        <strong>DevTrack</strong>
+        <small>Your SDE journey</small>
+      </span>
+    </a>
+
+    <p class="menu-label">WORKSPACE</p>
+
+    <nav id="navigation">
+      <button class="nav-link active" data-view="dashboard">▦ Dashboard</button>
+      <button class="nav-link" data-view="dsa">⌘ DSA Tracker</button>
+      <button class="nav-link" data-view="web">◇ Web Development</button>
+      <button class="nav-link" data-view="daily">◷ Daily Study Log</button>
+      <button class="nav-link" data-view="projects">▣ Projects</button>
+      <button class="nav-link" data-view="placement">◎ Placements</button>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="avatar">✦</div>
+      <div>
+        <strong>Future SDE</strong>
+        <small>One day at a time</small>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">YOUR PERSONAL LEARNING SPACE</p>
+        <h1 id="page-title">Dashboard</h1>
+      </div>
+      <div class="date-badge" id="today-date"></div>
+    </header>
+
+    <div id="app-content"></div>
+
+    <footer>Built with 💜 for your future in software development.</footer>
+  </main>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
